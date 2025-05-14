@@ -1,0 +1,75 @@
+
+main{
+        margin: 0px 35px;
+        text-align: justify;
+        #cabeçalho{
+                margin: 25px 0px;
+                h1{
+                        font-family: YoungSerif;
+                        color: var(--titulo-principal);
+                }
+                
+        }
+
+        #tempo-preparação{
+                background-color: var(--fundo-caixa);
+                font-family: Outfit;
+                padding: 20px;
+                border-radius: 12px;
+                
+                h3{
+                        color: var(--titulo-caixa);
+                        font-weight: 600;
+                }
+                
+                ul{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        list-style:disc;
+                        list-style-position: inside;
+        
+                }
+
+        }
+
+        #ingredientes{
+                margin: 20px;
+                font-family: Outfit;
+                h2{
+                        color: var(--destaque-titulo);
+                        font-family: YoungSerif;
+                        font-weight: 200;
+                }
+
+                ul{
+                        margin: 10px;
+                        color: var(--texto);
+                }
+
+                li{
+                        padding: 5px 0px;
+                }
+
+        }
+
+        #modo-de-fazer{
+                margin: 20px;
+                font-family: Outfit;
+                h2{
+                        color: var(--destaque-titulo);
+                        font-family: YoungSerif;
+                        font-weight: 200;
+                }
+
+                li{
+                        padding: 5px 0px;
+                }
+        }
+}
+
+p{
+        font-family: Outfit;
+        color: var(--texto);
+        padding-top: 20px;
+}
