@@ -8,6 +8,11 @@ main{
                         font-family: YoungSerif;
                         color: var(--titulo-principal);
                 }
+                p{
+                        font-family: Outfit;
+                        color: var(--texto);
+                        padding-top: 20px;
+                }
                 
         }
 
@@ -63,13 +68,63 @@ main{
                 }
 
                 li{
-                        padding: 5px 0px;
-                }
+                        color: var(--destaque-titulo);
+                        font-weight: 500;
+                        list-style-position: inside; 
+                        p{
+                                font-family: Outfit;
+                                color: var(--texto);
+                                padding-top: 10px;
+                        }
+                } 
+
+
         }
+
+        #tabela-nutri {
+                margin: 20px;
+                font-family: Outfit;
+                h2{
+                        color: var(--destaque-titulo);
+                        font-family: YoungSerif;
+                        font-weight: 200;
+                }
+                p{
+                        font-family: Outfit;
+                         color: var(--texto);
+                         padding-top: 10px;
+                }
+
+                li{
+                        display: flex;
+                        align-items: flex-end;
+                        justify-content: space-between;
+                        padding: 5px 0px;
+                        color: var(--destaque-titulo);
+                        font-weight: 500;
+                        list-style-position: inside; 
+                        p{
+                                font-family: Outfit;
+                                color: var(--texto);
+                                padding-top: 20px;
+                        }
+                }
+
+        }
+
 }
 
-p{
-        font-family: Outfit;
-        color: var(--texto);
-        padding-top: 20px;
+footer{
+       .attribution{      
+                a {
+                        text-decoration: none;  
+                        color: var(--destaque-titulo);                    
+                }
+                font-family: Outfit;
+                color: var(--texto);
+                padding-top: 20px;
+                text-align: center;
+        } 
 }
+
+

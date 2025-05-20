@@ -26,14 +26,51 @@
 
 body{
     background-color: var(--fundo-principal);
-    width: 380px;
     display: flex;
     flex-direction: column;
-    
+    margin: auto;
     header{
         img{
             width: 100%;
         }
+    }
+
+    @media (min-width: 481px) {
+        background-color: var(--destaque-titulo);
+        header{
+            display: flex;
+            background-color: white;
+            margin: 10% 10% 0 10%;
+            padding: 3%;
+            border-radius: 15px 15px 0 0;
+            img{    
+                margin: auto;
+                border-radius: 15px;
+                box-shadow: 5px 5px 10px var(--fundo-caixa);
+
+            }
+        }
+        main{
+            background-color: white;
+            margin: 0% 10% 0 10%;
+            padding: 3%;
+        }
+        #tabela-nutri{ 
+            display: flex;
+            flex-direction: column;
+            ul{
+                width: 70%;
+                display: flex;
+                flex-direction: column;
+                align-items: stretch;
+                li{
+                    align-items: center;
+                }
+            }
+            
+            
+        }
+
     }
 }
 
