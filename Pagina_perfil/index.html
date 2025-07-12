@@ -2,40 +2,39 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Social links profile</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <link rel="stylesheet" href="/styles/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
+<body class=" flex flex-col items-center bg-gray-950 h-screen justify-center">
 
-  <div class="conteudo">
+  <div class="flex flex-col items-center bg-gray-700 text-stone-300 max-w-sm rounded-lg border-4 border-double">
 
-    <img src="assets/images/Foto perfil-fotor-20250307215958.png" alt="Foto de mulher branca, cabelos preto, olhos castanhos.">
+    <img src="assets/images/fotoperfil.png" alt="Foto de mulher branca, cabelos preto, olhos castanhos." class="w-48 my-5">
 
-    <h1> Ana Carolina Merloti</h1>
-    <h2> Penápolis, São Paulo, Brasil</h2>
-    <h3> Desenvolvedora Front-End apaixonada por livros.</h3>
+    <h1 class="text-3xl my-2 text-center"> Ana Carolina Merloti</h1>
+    <h2 class="mx-5 text-center"> Penápolis, São Paulo, Brasil</h2>
+    <h3 class="mx-5 text-center"> Desenvolvedora Front-End apaixonada por livros.</h3>
 
-    <div class="conteudo_links">
-      <a href="https://wa.me/5518998219709" target="_blank">WhatsApp</a>
-      <a href="https://github.com/anac-silva" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/anac-nsilva/" target="_blank" >LinkedIn</a>
-      <a href="mailto:desenvolvedora.ana.silva@gmail.com">E-mail</a>
+    <div class="flex flex-col text-center my-5  " >
+      <a href="https://wa.me/5518998219709" target="_blank" class="bg-pink-500 hover:bg-pink-900 w-48 p-2 my-2 rounded-sm">WhatsApp</a>
+      <a href="https://github.com/anac-silva" target="_blank"class="bg-pink-500 hover:bg-pink-900 w-48 p-2 my-2 rounded-sm">GitHub</a>
+      <a href="https://www.linkedin.com/in/anac-nsilva/" target="_blank" class="bg-pink-500 hover:bg-pink-900 w-48 p-2 my-2 rounded-sm">LinkedIn</a>
+      <a href="mailto:desenvolvedora.ana.silva@gmail.com" class="bg-pink-500 hover:bg-pink-900 w-48 p-2 my-2 rounded-sm">E-mail</a>
     </div>
     
   
   </div>
 
-  <footer class="fixar-rodape">  
+  <footer class="my-10">  
 
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by Ana Merloti
+    <div class="text-stone-300 text-center">
+      Desafio <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Criado por Ana Carolina Merloti
     </div>
     
   </footer>
